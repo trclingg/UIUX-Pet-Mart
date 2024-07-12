@@ -1,0 +1,413 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #404146;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.container {
+    padding: 0px;
+}
+
+/* navbar */
+#navbar-header {
+    width: 100%;
+
+}
+
+.navbar-nav {
+    font-family: cabin;
+    color: rgba(64, 65, 70, 1);
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: rgba(7, 160, 129, 1) !important;
+    background: transparent;
+}
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    font-size: 10px;
+}
+
+.navbar .search-box {
+    border: solid 0.5px rgba(64, 65, 70, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 6px;
+    width: 240px;
+    height: 30px;
+}
+
+input[type="search"]:focus,
+button[type="submit"]:focus,
+button[type="button"]:focus {
+    box-shadow: none;
+    outline: none;
+    background: transparent;
+}
+
+button[type="submit"] {
+    border: none;
+}
+
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    color: #07A081;
+}
+
+#search-cart .nav-item,
+.nav-link {
+    text-decoration: none !important;
+    list-style: none !important;
+    color: rgba(64, 65, 70, 1);
+
+}
+
+#search-cart .nav-link:hover {
+    color: #07A081 !important;
+    background: transparent;
+}
+
+
+/* Hero */
+
+.header-content {
+    position: relative;
+}
+
+.hero h1 {
+    font-family: Poppins;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 600;
+    margin: 0px;
+}
+
+.hero p {
+    font-weight: 400;
+    margin: 0px;
+}
+
+.hero .btn {
+    background: rgba(7, 160, 129, 1) !important;
+    color: rgba(255, 255, 255, 1);
+    width: 198px;
+}
+
+.hero .btn:hover {
+    background-color: #aae4ca !important;
+}
+
+.hero i:hover {
+    color: #aae4ca !important;
+}
+
+.hero .fab {
+    color: rgba(7, 160, 129, 1);
+    margin-right: 20px;
+}
+
+.hero .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    position: relative;
+    z-index: 3;
+
+}
+
+
+.hero .dog {
+    width: 437px;
+    height: auto;
+    position: relative;
+}
+
+#decor {
+    position: absolute;
+    top: 130px;
+    z-index: -1;
+}
+
+#decor2 {
+    position: absolute;
+    top: 100px;
+    right: -10px;
+    z-index: -1;
+}
+
+#decor3 {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+#decor4 {
+    position: absolute;
+    top: 110px;
+    z-index: -1;
+
+}
+
+#decor5 {
+    position: absolute;
+    top: -20px;
+    right: 60%;
+    z-index: -1;
+}
+
+#decor6 {
+    position: absolute;
+    top: -15px;
+    right: 35%;
+    z-index: -1;
+}
+
+#decor7 {
+    position: absolute;
+    top: 30px;
+    right: 47%;
+    z-index: -1;
+}
+
+#decor8 {
+    width: 200px;
+    position: absolute;
+    left: 500px;
+    top: 130px;
+    background-color: #07A081;
+
+}
+
+/* highlight section */
+.highlight-pet-category {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.highlight-pet-category div {
+    width: 170px;
+    height: 70px;
+    background-size: cover;
+    padding-left: 20px;
+    background: linear-gradient(93.45deg, rgba(7, 160, 129, 0.4) 7.83%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 50px 0 0 50px;
+
+}
+
+.highlight-pet-category div:hover {
+    background: linear-gradient(93.45deg, rgba(7, 160, 129, 1) 7.83%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* pet */
+.pet-section .card-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.pet-section .card-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.pet-section .discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pet-section .card-img-top {
+    max-width: 293px;
+    min-height: 200px;
+    height: 253px;
+    border-radius: 20px;
+    border: none;
+}
+#pet-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* paging */
+
+.paging-previous {
+    display: inline-block;
+    width: 35px;
+    border: 0.3px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+.paging-next {
+    display: inline-block;
+    width: 35px;
+    border: none;
+    background-color: #D6EBDC;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-bottom: 2px;
+    line-height: 35px;
+}
+
+/* contact us */
+
+.contact-us-section-left-content {
+    height: 500px;
+    position: relative;
+}
+
+.contact-us-section-right-content {
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+.contact-us-section-right-content .social i {
+    margin-left: 10px;
+    background-color: #07A081;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+
+
+}
+
+.customer-section button:hover, .customer-section i:hover, .div-pagination span:hover{
+    background-color: #aae4ca !important;
+}
+
+/* customer */
+#cs-decor-cat {
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    z-index: -1;
+}
+
+#cs-decor-dog {
+    position: absolute;
+    top: 160px;
+    left: 12%;
+    z-index: -1;
+}
+
+#cs-decor-dog-frame {
+    position: absolute;
+    top: 150px;
+    left: 11%;
+    z-index: -2;
+}
+
+#cs-decor-pucci {
+    position: absolute;
+    bottom: 30%;
+    right: 15%;
+    z-index: 1;
+}
+
+#cs-decor-mart {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    z-index: 1;
+}
+
+.div-contact-us {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+/* discount */
+.discount-section #paw {
+    position: absolute;
+    width: 25%;
+    left: 20px;
+    top: -230px;
+    z-index: 0;
+} 
+
+.discount-section #star {
+    position: absolute;
+    right: 70px;
+    top: -215px;
+    z-index: 0;
+    width: 15%;
+}
+
+.body-discount-section .btn-shopnow {
+    position: absolute;
+    right: 0%;
+    top: 80%;
+    width: 150px;
+}
+
+.btn-shopnow:hover {
+    background-color: #aae4ca !important;
+}
+.lable-pet-discount {
+    display: inline-block;
+    background-color: red;
+    background-size: cover;
+    width: fit-content;
+    position: absolute;
+    padding: 15px 5px;
+    border-radius: 50%;
+    left: 60%;
+    top: 20%;
+    font-size: 20px;
+    
+}
+
+#discount-decor-pucci {
+    position: absolute;
+    top: 120px;
+    right: 80%;
+    z-index: -1;
+    width: 50%;
+}
+
+#discount-decor-mart {
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    z-index: -1;
+    width: 50%;
+}
+
+#pet-discount {
+    width: 80%;
+}
